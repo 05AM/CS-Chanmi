@@ -1,4 +1,4 @@
-# ☀️ TCP 통신의 문제점
+![image](https://github.com/05AM/CS-Chanmi/assets/83827023/87c7a484-6e6a-4b2f-ab65-b6d15156ef71)# ☀️ TCP 통신의 문제점
 
 1. `Packet Loss` (손실)
     
@@ -71,11 +71,9 @@
 - [검출후 재전송 방식(ARQ)](http://www.ktword.co.kr/test/view/view.php?m_temp1=848&id=843)의 일종
 - 크기가 1인 미닫이 창을 사용
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/376f7afc-244c-4e0a-bb26-f8c7cce6f442/50b08e20-32e0-46c3-808e-7db2bc66d9a2/Untitled.png)
+![image](https://github.com/05AM/CS-Chanmi/assets/83827023/418c2842-0bb2-43a0-b27d-bf66f54bd6a8)
+![image](https://github.com/05AM/CS-Chanmi/assets/83827023/066bab00-a29f-45d7-a06b-88de6eacf07f "[출처] Chapter 11. Data-Link Layer (velog.io)")
 
-![[출처] [Chapter 11. Data-Link Layer (velog.io)](https://velog.io/@wilko97/Chapter-11.-Data-Link-Layer)](https://prod-files-secure.s3.us-west-2.amazonaws.com/376f7afc-244c-4e0a-bb26-f8c7cce6f442/747641cc-2413-4da6-8468-c1561b7ab9c9/Untitled.png)
-
-[출처] [Chapter 11. Data-Link Layer (velog.io)](https://velog.io/@wilko97/Chapter-11.-Data-Link-Layer)
 
 ### 동작 방식
 
@@ -138,13 +136,10 @@ Stop-and-Wait은 데이터 프레임의 안전한 전송을 위한 기본적인 
 - 수신 윈도우
     - GBN에서 수신측의 윈도우 크기는 항상 1이다. 수신측은 항상 다음 예상 프레임만을 기다리는데, 다른 프레임이 도착하면 그 프레임은 무시된다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/376f7afc-244c-4e0a-bb26-f8c7cce6f442/35163db2-3248-436d-9b16-8e15b993132a/Untitled.png)
+![image](https://github.com/05AM/CS-Chanmi/assets/83827023/401d331a-5688-4d35-889b-22c327b50369)
+![image](https://github.com/05AM/CS-Chanmi/assets/83827023/d10f7343-d121-424f-96c5-7cf2f628c96c)
+![image](https://github.com/05AM/CS-Chanmi/assets/83827023/5553bea4-e32a-4393-a81a-4903c0111983 "[출처] Chapter 11. Data-Link Layer (velog.io)")
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/376f7afc-244c-4e0a-bb26-f8c7cce6f442/58ddecd5-537e-4177-9a3a-c7055d3cffd5/Untitled.png)
-
-![[출처] [Chapter 11. Data-Link Layer (velog.io)](https://velog.io/@wilko97/Chapter-11.-Data-Link-Layer)](https://prod-files-secure.s3.us-west-2.amazonaws.com/376f7afc-244c-4e0a-bb26-f8c7cce6f442/4607ac90-ae6e-4fa4-903e-82983e82bf1d/Untitled.png)
-
-[출처] [Chapter 11. Data-Link Layer (velog.io)](https://velog.io/@wilko97/Chapter-11.-Data-Link-Layer)
 
 ### 동작 과정
 
@@ -199,13 +194,10 @@ Stop-and-Wait은 데이터 프레임의 안전한 전송을 위한 기본적인 
     - SR에서 수신측의 윈도우 크기도 N이다.
     - 수신측은 순서에 상관없이 윈도우 내의 모든 프레임을 수신할 준비가 되어 있다. 수신된 프레임은 버퍼에 저장되며, 순서대로 상위 계층에 전달된다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/376f7afc-244c-4e0a-bb26-f8c7cce6f442/3751952a-dbb6-4a97-bd00-0cde2dd7f5f7/Untitled.png)
+![image](https://github.com/05AM/CS-Chanmi/assets/83827023/c54a328c-3b0d-4933-b2d3-567cd8e9f574)
+![image](https://github.com/05AM/CS-Chanmi/assets/83827023/d992f0b9-63e1-439b-8bce-b0278a71c90b)
+![image](https://github.com/05AM/CS-Chanmi/assets/83827023/306dbd0a-ab3a-4000-86ac-479e3aa3a3c0 "[출처] Chapter 11. Data-Link Layer (velog.io)")
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/376f7afc-244c-4e0a-bb26-f8c7cce6f442/b90e7e9f-fe65-4a2b-899e-5c991e02e4cb/Untitled.png)
-
-![[출처] [Chapter 11. Data-Link Layer (velog.io)](https://velog.io/@wilko97/Chapter-11.-Data-Link-Layer#1125-selective-repeat-protocol)](https://prod-files-secure.s3.us-west-2.amazonaws.com/376f7afc-244c-4e0a-bb26-f8c7cce6f442/55213da1-6038-41c0-9fba-12dc113a1e2a/Untitled.png)
-
-[출처] [Chapter 11. Data-Link Layer (velog.io)](https://velog.io/@wilko97/Chapter-11.-Data-Link-Layer#1125-selective-repeat-protocol)
 
 ### 동작 방식
 
@@ -250,9 +242,8 @@ Selective Repeat 프로토콜은 효율성과 성능을 중시하는 환경에�
 
 # ☀️ 혼잡 제어 주요 방법
 
-![[출처] [TCP/IP (흐름제어/혼잡제어) | 👨🏻‍💻 Tech Interview (gyoogle.dev)](https://gyoogle.dev/blog/computer-science/network/%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4%20&%20%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4.html#fast-retransmit-%E1%84%88%E1%85%A1%E1%84%85%E1%85%B3%E1%86%AB-%E1%84%8C%E1%85%A2%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%89%E1%85%A9%E1%86%BC)](https://prod-files-secure.s3.us-west-2.amazonaws.com/376f7afc-244c-4e0a-bb26-f8c7cce6f442/7f6aca49-f20d-43bd-a663-732377940239/Untitled.png)
+![image](https://github.com/05AM/CS-Chanmi/assets/83827023/3c5277ee-994c-41d8-95ad-2ebae31ea969 "[출처] TCP/IP (흐름제어/혼잡제어) | 👨🏻‍💻 Tech Interview (gyoogle.dev)")
 
-[출처] [TCP/IP (흐름제어/혼잡제어) | 👨🏻‍💻 Tech Interview (gyoogle.dev)](https://gyoogle.dev/blog/computer-science/network/%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4%20&%20%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4.html#fast-retransmit-%E1%84%88%E1%85%A1%E1%84%85%E1%85%B3%E1%86%AB-%E1%84%8C%E1%85%A2%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%89%E1%85%A9%E1%86%BC)
 
 ### AIMD (****Additive Increase / Multiplicative Decrease)****
 
