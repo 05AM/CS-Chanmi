@@ -1,4 +1,4 @@
-![image](https://github.com/05AM/CS-Chanmi/assets/83827023/87c7a484-6e6a-4b2f-ab65-b6d15156ef71)# ☀️ TCP 통신의 문제점
+# ☀️ TCP 통신의 문제점
 
 1. `Packet Loss` (손실)
     
