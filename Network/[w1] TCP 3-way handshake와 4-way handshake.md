@@ -12,9 +12,8 @@
 - 전송 계층의 대표적인 프로토콜은 `TCP`와 `UDP`이다.
 - 전송 계층의 패킷을 `세그먼트`라고 부르는데, UDP 프로토콜에서는 이를 종종 `데이터그램`이라고 하기도 한다.
 
-![[출처] [[네트워크] TCP/UDP와 3 -Way Handshake & 4 -Way Handshake (velog.io)](https://velog.io/@averycode/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-TCPUDP%EC%99%80-3-Way-Handshake4-Way-Handshake)](https://prod-files-secure.s3.us-west-2.amazonaws.com/376f7afc-244c-4e0a-bb26-f8c7cce6f442/c136f9cc-a3e3-4906-8e0a-26aa82ab1d2e/Untitled.png)
-
-[출처] [[네트워크] TCP/UDP와 3 -Way Handshake & 4 -Way Handshake (velog.io)](https://velog.io/@averycode/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-TCPUDP%EC%99%80-3-Way-Handshake4-Way-Handshake)
+![image](https://github.com/05AM/CS-Chanmi/assets/83827023/9def330e-1666-4d8c-9398-534511cab9dc "[네트워크] TCP/UDP와 3 -Way Handshake & 4 -Way Handshake (velog.io)")
+[출처] [네트워크] TCP/UDP와 3 -Way Handshake & 4 -Way Handshake (velog.io)
 
 ## ☀️ TCP (Transmission Control Protocol)
 
@@ -31,13 +30,13 @@
 - UDP보다 속도가 느림
 - 전이중(full-duplex), 점대점(point to point) 방식
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/376f7afc-244c-4e0a-bb26-f8c7cce6f442/035bbb1c-bba8-4023-afa3-032d16889cbb/Untitled.png)
+![image](https://github.com/05AM/CS-Chanmi/assets/83827023/44a9e5a8-2ba6-43a7-b286-e0ddd6469719)
+
 
 ### TCP 세그먼트 형식
 
-![[출처] [컴퓨터 네트워크 - TCP segment structure (tistory.com)](https://dlee0129.tistory.com/207)](https://prod-files-secure.s3.us-west-2.amazonaws.com/376f7afc-244c-4e0a-bb26-f8c7cce6f442/f667fd32-5b37-4c7a-a2c8-5fb963bb6c16/Untitled.png)
+![image](https://github.com/05AM/CS-Chanmi/assets/83827023/1948b0d3-b645-44f8-b50a-d2a11bd07ea1 "[출처] 컴퓨터 네트워크 - TCP segment structure (tistory.com)")
 
-[출처] [컴퓨터 네트워크 - TCP segment structure (tistory.com)](https://dlee0129.tistory.com/207)
 
 1. `source port #`
     
@@ -116,9 +115,8 @@ PAR (Positive Acknowledgement with Re-transmission) 을 통해 신뢰적인 통�
     ⇒ 이 과정에서 클라이언트와 서버 사이에서 3개의 세그먼트가 교환되는 것을 확인할 수 있다. 이것이 바로 3-way handshake의 기본 매커니즘이다.
     
 
-![[출처] [TCP 3 way handshake 내용 정리 (tistory.com)](https://sjlim5092.tistory.com/35)](https://prod-files-secure.s3.us-west-2.amazonaws.com/376f7afc-244c-4e0a-bb26-f8c7cce6f442/c6187e8d-0be4-4da7-81cc-540864d7b77d/Untitled.png)
+![image](https://github.com/05AM/CS-Chanmi/assets/83827023/2d0889a5-86ce-438e-a153-403ba84e23c8 "[출처] TCP 3 way handshake 내용 정리 (tistory.com)")
 
-[출처] [TCP 3 way handshake 내용 정리 (tistory.com)](https://sjlim5092.tistory.com/35)
 
 ### 작동 방식
 
@@ -223,9 +221,8 @@ TCP는 대부분의 connection-oriented 프로토콜과 같은 두 가지 연결
 
 서버와 클라이언트는 모두 서로 연결 요청을 먼저 할 수 있기 때문에, 먼저 요청한 요청자를 클라이언트로, 연결 요청을 받은 수신자를 서버로 생각한다.
 
-![[출처] [TCP 4 way handshake 내용 정리 (tistory.com)](https://sjlim5092.tistory.com/37)](https://prod-files-secure.s3.us-west-2.amazonaws.com/376f7afc-244c-4e0a-bb26-f8c7cce6f442/c869c3dd-6b0c-43ae-ac3f-8adb1a73b3ff/Untitled.png)
+![image](https://github.com/05AM/CS-Chanmi/assets/83827023/89186906-c050-443d-a579-05512e3d59f9 "TCP 4 way handshake 내용 정리 (tistory.com)")
 
-[출처] [TCP 4 way handshake 내용 정리 (tistory.com)](https://sjlim5092.tistory.com/37)
 
 1. `FIN` (클라이언트 → 서버)
     
@@ -269,7 +266,8 @@ TCP는 대부분의 connection-oriented 프로토콜과 같은 두 가지 연결
         - Client : → `CLOSED`
         - Server : → `CLOSED`
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/376f7afc-244c-4e0a-bb26-f8c7cce6f442/f18ba6a1-fffb-4cd1-9e4c-987b9c97d512/Untitled.png)
+![image](https://github.com/05AM/CS-Chanmi/assets/83827023/210396e4-1436-454b-8c25-dd95d5f59062)
+
 
 ### Half-Close 기법
 
@@ -286,7 +284,7 @@ TCP 연결의 특징 중 하나는 양방향 통신이 가능하다는 것이다
 3. 서버가 모든 데이터를 클라이언트에게 전송하고 나면, 서버 역시 **`FIN`** 패킷을 클라이언트에게 보내 연결의 반대 방향도 종료를 요청한다.
 4. 클라이언트는 **`ACK`**로 응답하여 서버의 **`FIN`** 패킷을 확인하고, 이로써 양방향 모두 연결이 종료된다.
 
-## 고
+## 참참고
 
 + Chat GPT
 
