@@ -60,9 +60,12 @@ SSL 3.0의 후속 버전으로, 1999년에 IETF(Internet Engineering Task Force)
 
 ⇒ 최근에는 많은 조직과 전문가들이 SSL을 완전히 폐기하고 TLS만 사용하도록 권장하고 있다. 그러나, 용어의 사용 습관이나 인식 때문에 "TLS/SSL"이라는 표현이 여전히 흔하게 사용된다. 하지만 기술적으로 정확하게 표현하려면 "TLS"를 사용하는 것이 좋다.
 
+<br>
+
 ## ☀ TLS/SLL Handshake
 
-![Alt text](image-6.png)
+![image](https://github.com/05AM/CS-Chanmi/assets/83827023/d5b4e0ea-0faf-4c4b-859d-da23787ca278)
+
 
 1. **사용자 브라우저 접속**
     
@@ -110,6 +113,7 @@ SSL 3.0의 후속 버전으로, 1999년에 IETF(Internet Engineering Task Force)
     
     한번 핸드쉐이크가 완료되면, 서버와 클라이언트는 교환된 정보를 기반으로 실제 세션 키를 생성한다. 이 세션 키는 대칭키로, 암호화와 복호화에 동일한 키가 사용된다. 이후 모든 통신은 이 대칭키를 사용해서 암호화되어 전송된다.
     
+<br>
 
 ## ☀ 참고 자료
 
