@@ -21,7 +21,7 @@
     - `Context Switching`으로 인한 성능 저하
 
 <aside>
-💡 *Contest Switching*
+💡 <i>Context Switching</i>
 
 프로세스의 상태 정보를 저장하고 복원하는 일련의 과정
 
